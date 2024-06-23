@@ -1,0 +1,34 @@
+
+    @media only screen and (max-width: 768px) {
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        
+      }
+
+      .headbar {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+
+      .section2, .section3 {
+        width: 100%;
+        padding: 10px;
+      }
+
+      .section2 img, .section3 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+
+      .our, .text1, .text2, .neetText, .iitText, .sch1, .scs, .our1, .dsr {
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      /* Add more specific styles as needed */
+    }
